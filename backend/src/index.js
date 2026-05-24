@@ -6,7 +6,7 @@ import { Userrouter } from "./routes/user.route.js"
 import {postRouter} from "./routes/posts.route.js";
 
 dotenv.config({
-    path: 'C:\\Users\\TEMP\\Desktop\\crud-operations-using-node\\.env'
+    path: 'C:\\Users\\uppal\\Downloads\\crud-operations-using-node\\backend\\.env'
 })
 app.use(express.json());
 app.use("/",Userrouter)
